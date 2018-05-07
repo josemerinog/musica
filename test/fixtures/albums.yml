@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: albums
+#
+#  id          :integer          not null, primary key
+#  artist_id   :integer
+#  name        :string
+#  image_url   :string
+#  released_at :datetime
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  artist: one
+  name: MyString
+  image_url: MyString
+  released_at: 2018-05-06 23:20:47
+
+two:
+  artist: two
+  name: MyString
+  image_url: MyString
+  released_at: 2018-05-06 23:20:47
